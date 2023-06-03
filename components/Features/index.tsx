@@ -9,10 +9,10 @@ const Features = () => {
         id="features"
         className="bg-primary/[.03] py-16 md:py-20 lg:py-28"
       >
-        <div className="container">
+        <div className="text-Gray">
           <SectionTitle
-            title="Main Features"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            title="Services"
+            paragraph="We can always customize service to specific needs"
             center
           />
 

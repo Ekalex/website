@@ -13,8 +13,8 @@ const Video = () => {
     <section className="relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="We are ready to help"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Here to Help"
+          paragraph="Life can be demanding blah blah, manage kitchen / cook hard blah blah"
           center
           mb="80px"
         />
@@ -30,7 +30,7 @@ const Video = () => {
                 <div className="absolute top-0 right-0 flex h-full w-full items-center justify-center">
                   <button
                     onClick={() => setOpen(true)}
-                    className="flex h-[70px] w-[70px] items-center justify-center rounded-full bg-white bg-opacity-75 text-primary transition hover:bg-opacity-100"
+                    className="flex h-[70px] w-[70px] items-center justify-center rounded-full bg-Gray bg-opacity-75 text-primary transition hover:bg-opacity-100"
                   >
                     <svg
                       width="16"
