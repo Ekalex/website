@@ -12,20 +12,16 @@ const BlogSidebarPage = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 lg:w-8/12">
               <div>
-                <h2 className="mb-8 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight">
+                <h2 className="mb-8 text-3xl font-bold leading-tight text-Charcoal dark:text-Gray sm:text-4xl sm:leading-tight">
                   10 amazing sites to download stock photos & digital assets for
                   free
                 </h2>
-                <div className="mb-10 flex flex-wrap items-center justify-between border-b border-body-color border-opacity-10 pb-4 dark:border-white dark:border-opacity-10">
+                <div className="mb-10 flex flex-wrap items-center justify-between border-b border-body-color border-opacity-10 pb-4 dark:border-Gray dark:border-opacity-10">
                   <div className="flex flex-wrap items-center">
                     <div className="mr-10 mb-5 flex items-center">
                       <div className="mr-4">
                         <div className="relative h-10 w-10 overflow-hidden rounded-full">
-                          <Image
-                            src="/images/blog/author-02.png"
-                            alt="author"
-                            fill
-                          />
+                          
                         </div>
                       </div>
                       <div className="w-full">
@@ -91,7 +87,7 @@ const BlogSidebarPage = () => {
                   <div className="mb-5">
                     <a
                       href="#0"
-                      className="inline-flex items-center justify-center rounded-full bg-primary py-2 px-4 text-sm font-semibold text-white"
+                      className="inline-flex items-center justify-center rounded-full bg-primary py-2 px-4 text-sm font-semibold text-Gray"
                     >
                       Design
                     </a>
@@ -118,7 +114,7 @@ const BlogSidebarPage = () => {
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Quis enim lobortis scelerisque fermentum. Neque
                     sodales ut etiam sit amet. Ligula ullamcorper
-                    <strong className="text-primary dark:text-white">
+                    <strong className="text-primary dark:text-Gray">
                       {" "}
                       malesuada{" "}
                     </strong>
@@ -128,7 +124,7 @@ const BlogSidebarPage = () => {
                   </p>
                   <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                     Semper auctor neque vitae tempus quam pellentesque nec.
-                    <span className="text-primary underline dark:text-white">
+                    <span className="text-primary underline dark:text-Gray">
                       {" "}
                       Amet dictum sit amet justo{" "}
                     </span>
@@ -136,7 +132,7 @@ const BlogSidebarPage = () => {
                     aliquet porttitor. Odio pellentesque diam volutpat commodo
                     sed.
                   </p>
-                  <h3 className="font-xl mb-10 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
+                  <h3 className="font-xl mb-10 font-bold leading-tight text-Charcoal dark:text-Gray sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
                     Digital marketplace for Ui/Ux designers.
                   </h3>
                   <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
@@ -192,10 +188,10 @@ const BlogSidebarPage = () => {
                             y2="52.0609"
                             gradientUnits="userSpaceOnUse"
                           >
-                            <stop stopColor="white" stopOpacity="0.06" />
+                            <stop stopColor="Gray" stopOpacity="0.06" />
                             <stop
                               offset="1"
-                              stopColor="white"
+                              stopColor="Gray"
                               stopOpacity="0"
                             />
                           </linearGradient>
@@ -207,10 +203,10 @@ const BlogSidebarPage = () => {
                             y2="50.8365"
                             gradientUnits="userSpaceOnUse"
                           >
-                            <stop stopColor="white" stopOpacity="0.06" />
+                            <stop stopColor="Gray" stopOpacity="0.06" />
                             <stop
                               offset="1"
-                              stopColor="white"
+                              stopColor="Gray"
                               stopOpacity="0"
                             />
                           </linearGradient>
@@ -262,7 +258,7 @@ const BlogSidebarPage = () => {
                               cx="40.8089"
                               cy="19.853"
                               r="15.4412"
-                              fill="white"
+                              fill="Gray"
                             />
                           </g>
                         </g>
@@ -340,9 +336,9 @@ const BlogSidebarPage = () => {
                   <input
                     type="text"
                     placeholder="Search here..."
-                    className="palceholder-body-color mr-5 w-full rounded-md border border-transparent py-3 px-5 text-base font-medium text-body-color outline-none focus:border-primary dark:bg-white dark:bg-opacity-10"
+                    className="palceholder-body-color mr-5 w-full rounded-md border border-transparent py-3 px-5 text-base font-medium text-body-color outline-none focus:border-primary dark:bg-Gray dark:bg-opacity-10"
                   />
-                  <button className="flex h-[50px] w-full max-w-[50px] items-center justify-center rounded-md bg-primary text-white">
+                  <button className="flex h-[50px] w-full max-w-[50px] items-center justify-center rounded-md bg-primary text-Gray">
                     <svg
                       width="20"
                       height="18"
@@ -352,18 +348,18 @@ const BlogSidebarPage = () => {
                     >
                       <path
                         d="M19.4062 16.8125L13.9375 12.375C14.9375 11.0625 15.5 9.46875 15.5 7.78125C15.5 5.75 14.7188 3.875 13.2812 2.4375C10.3438 -0.5 5.5625 -0.5 2.59375 2.4375C1.1875 3.84375 0.40625 5.75 0.40625 7.75C0.40625 9.78125 1.1875 11.6562 2.625 13.0937C4.09375 14.5625 6.03125 15.3125 7.96875 15.3125C9.875 15.3125 11.75 14.5938 13.2188 13.1875L18.75 17.6562C18.8438 17.75 18.9688 17.7812 19.0938 17.7812C19.25 17.7812 19.4062 17.7188 19.5312 17.5938C19.6875 17.3438 19.6562 17 19.4062 16.8125ZM3.375 12.3438C2.15625 11.125 1.5 9.5 1.5 7.75C1.5 6 2.15625 4.40625 3.40625 3.1875C4.65625 1.9375 6.3125 1.3125 7.96875 1.3125C9.625 1.3125 11.2812 1.9375 12.5312 3.1875C13.75 4.40625 14.4375 6.03125 14.4375 7.75C14.4375 9.46875 13.7188 11.125 12.5 12.3438C10 14.8438 5.90625 14.8438 3.375 12.3438Z"
-                        fill="white"
+                        fill="Gray"
                       />
                     </svg>
                   </button>
                 </form>
               </div>
               <div className="mb-10 rounded-md bg-primary bg-opacity-5 dark:bg-opacity-10">
-                <h3 className="border-b border-body-color border-opacity-10 py-4 px-8 text-lg font-semibold text-black dark:border-white dark:border-opacity-10 dark:text-white">
+                <h3 className="border-b border-body-color border-opacity-10 py-4 px-8 text-lg font-semibold text-Charcoal dark:border-Gray dark:border-opacity-10 dark:text-Gray">
                   Related Posts
                 </h3>
                 <ul className="p-8">
-                  <li className="mb-6 border-b border-body-color border-opacity-10 pb-6 dark:border-white dark:border-opacity-10">
+                  <li className="mb-6 border-b border-body-color border-opacity-10 pb-6 dark:border-Gray dark:border-opacity-10">
                     <RelatedPost
                       title="Best way to boost your online sales."
                       image="/images/blog/post-01.jpg"
@@ -371,7 +367,7 @@ const BlogSidebarPage = () => {
                       date="12 Feb 2025"
                     />
                   </li>
-                  <li className="mb-6 border-b border-body-color border-opacity-10 pb-6 dark:border-white dark:border-opacity-10">
+                  <li className="mb-6 border-b border-body-color border-opacity-10 pb-6 dark:border-Gray dark:border-opacity-10">
                     <RelatedPost
                       title="50 Best web design tips & tricks that will help you."
                       image="/images/blog/post-02.jpg"
@@ -390,7 +386,7 @@ const BlogSidebarPage = () => {
                 </ul>
               </div>
               <div className="mb-10 rounded-md bg-primary bg-opacity-5 dark:bg-opacity-10">
-                <h3 className="border-b border-body-color border-opacity-10 py-4 px-8 text-lg font-semibold text-black dark:border-white dark:border-opacity-10 dark:text-white">
+                <h3 className="border-b border-body-color border-opacity-10 py-4 px-8 text-lg font-semibold text-Charcoal dark:border-Gray dark:border-opacity-10 dark:text-Gray">
                   Popular Category
                 </h3>
                 <ul className="py-6 px-8">
@@ -437,7 +433,7 @@ const BlogSidebarPage = () => {
                 </ul>
               </div>
               <div className="mb-10 rounded-md bg-primary bg-opacity-5 dark:bg-opacity-10">
-                <h3 className="border-b border-body-color border-opacity-10 py-4 px-8 text-lg font-semibold text-black dark:border-white dark:border-opacity-10 dark:text-white">
+                <h3 className="border-b border-body-color border-opacity-10 py-4 px-8 text-lg font-semibold text-Charcoal dark:border-Gray dark:border-opacity-10 dark:text-Gray">
                   Popular Tags
                 </h3>
                 <div className="flex flex-wrap py-6 px-8">

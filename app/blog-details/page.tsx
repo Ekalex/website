@@ -10,11 +10,11 @@ const BlogDetailsPage = () => {
           <div className="-mx-4 flex flex-wrap justify-center">
             <div className="w-full px-4 lg:w-8/12">
               <div>
-                <h2 className="mb-8 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight">
+                <h2 className="mb-8 text-3xl font-bold leading-tight text-Charcoal dark:text-Gray sm:text-4xl sm:leading-tight">
                   10 amazing sites to download stock photos & digital assets for
                   free
                 </h2>
-                <div className="mb-10 flex flex-wrap items-center justify-between border-b border-body-color border-opacity-10 pb-4 dark:border-white dark:border-opacity-10">
+                <div className="mb-10 flex flex-wrap items-center justify-between border-b border-body-color border-opacity-10 pb-4 dark:border-Gray dark:border-opacity-10">
                   <div className="flex flex-wrap items-center">
                     <div className="mr-10 mb-5 flex items-center">
                       <div className="mr-4">
@@ -89,7 +89,7 @@ const BlogDetailsPage = () => {
                   <div className="mb-5">
                     <a
                       href="#0"
-                      className="inline-flex items-center justify-center rounded-full bg-primary py-2 px-4 text-sm font-semibold text-white"
+                      className="inline-flex items-center justify-center rounded-full bg-primary py-2 px-4 text-sm font-semibold text-Gray"
                     >
                       Design
                     </a>
@@ -116,7 +116,7 @@ const BlogDetailsPage = () => {
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Quis enim lobortis scelerisque fermentum. Neque
                     sodales ut etiam sit amet. Ligula ullamcorper
-                    <strong className="text-primary dark:text-white">
+                    <strong className="text-primary dark:text-Gray">
                       malesuada
                     </strong>
                     proin libero nunc consequat interdum varius. Quam
@@ -125,14 +125,14 @@ const BlogDetailsPage = () => {
                   </p>
                   <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                     Semper auctor neque vitae tempus quam pellentesque nec.
-                    <span className="text-primary underline dark:text-white">
+                    <span className="text-primary underline dark:text-Gray">
                       Amet dictum sit amet justo
                     </span>
                     donec enim diam. Varius sit amet mattis vulputate enim nulla
                     aliquet porttitor. Odio pellentesque diam volutpat commodo
                     sed.
                   </p>
-                  <h3 className="font-xl mb-10 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
+                  <h3 className="font-xl mb-10 font-bold leading-tight text-Charcoal dark:text-Gray sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
                     Digital marketplace for Ui/Ux designers.
                   </h3>
                   <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
@@ -188,10 +188,10 @@ const BlogDetailsPage = () => {
                             y2="52.0609"
                             gradientUnits="userSpaceOnUse"
                           >
-                            <stop stopColor="white" stopOpacity="0.06" />
+                            <stop stopColor="Gray" stopOpacity="0.06" />
                             <stop
                               offset="1"
-                              stopColor="white"
+                              stopColor="Gray"
                               stopOpacity="0"
                             />
                           </linearGradient>
@@ -203,10 +203,10 @@ const BlogDetailsPage = () => {
                             y2="50.8365"
                             gradientUnits="userSpaceOnUse"
                           >
-                            <stop stopColor="white" stopOpacity="0.06" />
+                            <stop stopColor="Gray" stopOpacity="0.06" />
                             <stop
                               offset="1"
-                              stopColor="white"
+                              stopColor="Gray"
                               stopOpacity="0"
                             />
                           </linearGradient>
@@ -258,7 +258,7 @@ const BlogDetailsPage = () => {
                               cx="40.8089"
                               cy="19.853"
                               r="15.4412"
-                              fill="white"
+                              fill="Gray"
                             />
                           </g>
                         </g>

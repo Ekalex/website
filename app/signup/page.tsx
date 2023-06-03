@@ -8,13 +8,13 @@ const SignupPage = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
               <div className="mx-auto max-w-[500px] rounded-md bg-primary bg-opacity-5 py-10 px-6 dark:bg-dark sm:p-[60px]">
-                <h3 className="mb-3 text-center text-2xl font-bold text-black dark:text-white sm:text-3xl">
+                <h3 className="mb-3 text-center text-2xl font-bold text-Charcoal dark:text-Gray sm:text-3xl">
                   Create your account
                 </h3>
                 <p className="mb-11 text-center text-base font-medium text-body-color">
                   It’s totally free and super easy
                 </p>
-                <button className="mb-6 flex w-full items-center justify-center rounded-md bg-white p-3 text-base font-medium text-body-color shadow-one hover:text-primary dark:bg-[#242B51] dark:text-body-color dark:shadow-signUp dark:hover:text-white">
+                <button className="mb-6 flex w-full items-center justify-center rounded-md bg-Gray p-3 text-base font-medium text-body-color shadow-one hover:text-primary dark:bg-[#242B51] dark:text-body-color dark:shadow-signUp dark:hover:text-Gray">
                   <span className="mr-3">
                     <svg
                       width="20"
@@ -43,7 +43,7 @@ const SignupPage = () => {
                       </g>
                       <defs>
                         <clipPath id="clip0_95:967">
-                          <rect width="20" height="20" fill="white" />
+                          <rect width="20" height="20" fill="Gray" />
                         </clipPath>
                       </defs>
                     </svg>
@@ -61,7 +61,7 @@ const SignupPage = () => {
                   <div className="mb-8">
                     <label
                       htmlFor="name"
-                      className="mb-3 block text-sm font-medium text-dark dark:text-white"
+                      className="mb-3 block text-sm font-medium text-dark dark:text-Gray"
                     >
                       {" "}
                       Full Name{" "}
@@ -76,7 +76,7 @@ const SignupPage = () => {
                   <div className="mb-8">
                     <label
                       htmlFor="email"
-                      className="mb-3 block text-sm font-medium text-dark dark:text-white"
+                      className="mb-3 block text-sm font-medium text-dark dark:text-Gray"
                     >
                       {" "}
                       Work Email{" "}
@@ -91,7 +91,7 @@ const SignupPage = () => {
                   <div className="mb-8">
                     <label
                       htmlFor="password"
-                      className="mb-3 block text-sm font-medium text-dark dark:text-white"
+                      className="mb-3 block text-sm font-medium text-dark dark:text-Gray"
                     >
                       {" "}
                       Your Password{" "}
@@ -114,7 +114,7 @@ const SignupPage = () => {
                           id="checkboxLabel"
                           className="sr-only"
                         />
-                        <div className="box mr-4 mt-1 flex h-5 w-5 items-center justify-center rounded border border-body-color border-opacity-20 dark:border-white dark:border-opacity-10">
+                        <div className="box mr-4 mt-1 flex h-5 w-5 items-center justify-center rounded border border-body-color border-opacity-20 dark:border-Gray dark:border-opacity-10">
                           <span className="opacity-0">
                             <svg
                               width="11"
@@ -148,16 +148,11 @@ const SignupPage = () => {
                     </label>
                   </div>
                   <div className="mb-6">
-                    <button className="flex w-full items-center justify-center rounded-md bg-primary py-4 px-9 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
-                      Sign up
-                    </button>
+                    
                   </div>
                 </form>
                 <p className="text-center text-base font-medium text-body-color">
-                  Already using Startup?
-                  <Link href="/signin" className="text-primary hover:underline">
-                    Sign in
-                  </Link>
+                  Already using Startup?                  
                 </p>
               </div>
             </div>

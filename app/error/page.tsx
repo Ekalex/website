@@ -65,13 +65,13 @@ const ErrorPage = () => {
                           cx="233.543"
                           cy="49.2645"
                           r="28.2059"
-                          fill="white"
+                          fill="Gray"
                         />
                       </g>
                     </g>
                     <path
                       d="M0 182H83.5V209H150.5V178H169.5V148.5C169.5 148.5 194 165 229.5 165C265 165 294 134.5 294 134.5V152H306.5H361V178H435V152H474"
-                      stroke="white"
+                      stroke="Gray"
                       strokeOpacity="0.08"
                       strokeWidth="2"
                     />
@@ -133,7 +133,7 @@ const ErrorPage = () => {
                     </defs>
                   </svg>
                 </div>
-                <h3 className="mb-4 text-3xl font-bold text-black dark:text-white sm:text-4xl">
+                <h3 className="mb-4 text-3xl font-bold text-Charcoal dark:text-Gray sm:text-4xl">
                   Sorry, the page can’t be found
                 </h3>
                 <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
@@ -142,7 +142,7 @@ const ErrorPage = () => {
                 </p>
                 <Link
                   href="/"
-                  className="rounded-md bg-primary py-3 px-8 text-base font-bold text-white shadow-signUp duration-300 hover:bg-white hover:text-primary md:px-9 lg:px-8 xl:px-9"
+                  className="rounded-md bg-primary py-3 px-8 text-base font-bold text-Gray shadow-signUp duration-300 hover:bg-Gray hover:text-primary md:px-9 lg:px-8 xl:px-9"
                 >
                   Back to Homepage
                 </Link>

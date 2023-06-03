@@ -4,7 +4,8 @@ import SectionTitle from "../Common/SectionTitle";
 import OfferList from "./OfferList";
 import PricingBox from "./PricingBox";
 
-const Pricing = () => {
+
+  const Pricing = () => {  
   const [isMonthly, setIsMonthly] = useState(true);
 
   return (
@@ -27,7 +28,7 @@ const Pricing = () => {
               className={`${
                 isMonthly
                   ? "pointer-events-none text-primary"
-                  : "text-dark dark:text-white"
+                  : "text-dark dark:text-Gray"
               } mr-4 cursor-pointer text-base font-semibold`}
             >
               Monthly
@@ -43,7 +44,7 @@ const Pricing = () => {
                     isMonthly ? "" : "translate-x-full"
                   } shadow-switch-1 absolute left-0 top-[-4px] flex h-7 w-7 items-center justify-center rounded-full bg-primary transition`}
                 >
-                  <span className="active h-4 w-4 rounded-full bg-white"></span>
+                  <span className="active h-4 w-4 rounded-full bg-Gray"></span>
                 </div>
               </div>
             </div>
@@ -51,7 +52,7 @@ const Pricing = () => {
               onClick={() => setIsMonthly(false)}
               className={`${
                 isMonthly
-                  ? "text-dark dark:text-white"
+                  ? "text-dark dark:text-Gray"
                   : "pointer-events-none text-primary"
               } ml-4 cursor-pointer text-base font-semibold`}
             >
@@ -160,5 +161,6 @@ const Pricing = () => {
     </section>
   );
 };
+
 
 export default Pricing;
