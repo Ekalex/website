@@ -7,11 +7,11 @@ const SingleBlog = ({ blog }: { blog: Blog }) => {
   return (
     <>
       <div
-        className="wow fadeInUp relative overflow-hidden rounded-md bg-Gray shadow-one dark:bg-dark"
+        className="wow fadeInUp relative overflow-hidden rounded-md bg-Gray shadow-one"
         data-wow-delay=".1s"
       >
         <Link href="/" className="relative block h-[220px] w-full">
-          <span className="absolute top-6 right-6 z-20 inline-flex items-center justify-center rounded-full bg-primary py-2 px-4 text-sm font-semibold capitalize text-Gray">
+          <span className="absolute top-6 right-6 z-20 inline-flex items-center justify-center rounded-full bg-Gray py-2 px-4 text-sm font-semibold capitalize text-Gray">
             {tags[0]}
           </span>
           <Image src={image} alt="image" fill />
