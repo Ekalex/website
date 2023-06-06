@@ -5,8 +5,8 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Max and Merrill Barrett",
-    designation: "-Client",
+    name: " - Max and Merrill Barrett",
+    designation: "Previous Clients",
     content:
       "We appreciate all of the help that Eric did for us. He is kind, friendly, and his food is amazing! He was just the best!",
     image: "/images/testimonials/auth-01.png",
@@ -37,8 +37,8 @@ const Testimonials = () => {
     <section className="relative z-10 bg-primary/[.03] py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Reviews"
+          paragraph="find something clever to say here"
           center
         />
 
