@@ -5,10 +5,10 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    name: "Max and Merrill Barrett",
+    designation: "-Client",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "We appreciate all of the help that Eric did for us. He is kind, friendly, and his food is amazing! He was just the best!",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
