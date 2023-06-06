@@ -13,7 +13,7 @@ const SingleTestimonial = ({ testimonial }: { testimonial: Testimonial }) => {
   for (let index = 0; index < star; index++) {
     ratingIcons.push(
       <span key={index} className="text-yellow">
-        {starIcon}
+       
       </span>
     );
   }
