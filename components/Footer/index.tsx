@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
       <footer
-        className="wow fadeInUp relative z-10 bg-primary bg-opacity-5 pt-16 md:pt-20 lg:pt-24"
+        className="relative z-10 bg-primary bg-opacity-5 pt-16 md:pt-20 lg:pt-24"
         data-wow-delay=".1s"
       >
         <div className="container">
@@ -21,9 +21,8 @@ const Footer = () => {
                     height={30}
                   />
                 </Link>
-                <p className="mb-9 text-base font-medium leading-relaxed text-body-color">
-                </p>
-                <div className="flex items-center">
+                
+                <div className="invisible flex items-center">
                   <a
                     href="/"
                     aria-label="social-link"
@@ -84,10 +83,10 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
+            <div className="justify-center w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-Charcoal dark:text-Gray">
-                  Peace of mind
+                  Documents
                 </h2>
                 <ul>
                   <li>
@@ -96,12 +95,12 @@ const Footer = () => {
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      About
+                      Terms Of Service
                     </a>
                   </li>
                   <li>
                     <a
-                      href="/"
+                      href="/public/docs/tos.docx" download="Terms Of Service"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
@@ -114,14 +113,14 @@ const Footer = () => {
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      Servsafe{" "}
+                      Servsafe
                     </a>
                   </li>
                 </ul>
               </div>
             </div>
 
-            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
+            { /*<div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-Charcoal dark:text-Gray">
                   Terms
@@ -156,7 +155,10 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> 
+  */}
+
+  
 
        
           </div>
