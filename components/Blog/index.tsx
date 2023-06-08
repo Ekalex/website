@@ -2,10 +2,11 @@ import SectionTitle from "../Common/SectionTitle";
 import SingleBlog from "./SingleBlog";
 import blogData from "./blogData";
 
-/** */
+
 const Blog = () => {
   
-    return (
+    /** 
+     * return (
     <section id="blog" className="bg-primary/5 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
@@ -24,7 +25,8 @@ const Blog = () => {
       </div>
     </section>
   );
- 
+ */
 };
+
 
 export default Blog;
