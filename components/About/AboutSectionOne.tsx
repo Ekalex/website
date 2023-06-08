@@ -27,40 +27,40 @@ const AboutSectionOne = () => {
 
     <br></br>
 
-    <div>
+    <div className="text">
     Education:
-    I refined my skills at Johnson and Wales University, where I immersed myself in the art and science of gastronomy. The renowned chefs there nurtured my talent and ignited my love for creating culinary masterpieces.
+    I refined my skills at Johnson and Wales University where I immersed myself in the art and science of gastronomy. The renowned chefs there nurtured my talent and ignited my love for creating culinary masterpieces.
     </div>
 
     <br></br>
     
-    <div>
+    <div className="text">
     Work History:
-    My culinary journey started in Newport, Rhode Island, a town brimming with coastal charm and a vibrant food scene. I embraced the local ingredients and crafted dishes that delighted patrons and garnered recognition within the culinary community.
+    My culinary journey started in Newport &#44; Rhode Island &#44; a town brimming with coastal charm and a vibrant food scene. I embraced the local ingredients and crafted dishes that delighted patrons and garnered recognition within the culinary community.
     </div>
 
     <br></br>
     
-    <div>
-    Driven by a thirst for exploration, I returned to my hometown of Boston, leaving my mark on the city's gastronomic landscape. At Catalyst, I had the pleasure of working with a team dedicated to culinary excellence. The emphasis on seasonal flavors and high-quality ingredients allowed me to showcase my skills and create memorable dining experiences.
+    <div className="text">
+    Driven by a thirst for exploration &#44; I returned to my hometown of Boston &#44; leaving my mark on the city&#39s gastronomic landscape. At Catalyst &#44; I had the pleasure of working with a team dedicated to culinary excellence. The emphasis on seasonal flavors and high-quality ingredients allowed me to showcase my skills and create memorable dining experiences.
     </div>
 
     <br></br>
 
-    <div>
-    At Branch Line, I discovered an appreciation for the incredible quality of food. The focus on rotisserie cooking and farm-to-table practices inspired me to elevate my craft even further. The experience of crafting delicious meals using the freshest, locally sourced ingredients was truly invigorating.
+    <div className="text">
+    At Branch Line &#44; I discovered an appreciation for the incredible quality of food. The focus on rotisserie cooking and farm-to-table practices inspired me to elevate my craft even further. The experience of crafting delicious meals using the freshest &#44; locally sourced ingredients was truly invigorating.
     </div>
 
     <br></br>
     
-    <div>
-    Notably, I had the privilege of working at Walt Disney World, where I mastered large-scale culinary operations while maintaining an unwavering commitment to quality. Serving guests from around the world was a truly magical experience.
+    <div className="text">
+    Notably &#44; I had the privilege of working at Walt Disney World &#44; where I mastered large-scale culinary operations while maintaining an unwavering commitment to quality. Serving guests from around the world was a truly magical experience.
     </div>
     <br></br>
 
-    <div>
+    <div className="text">
     Personal Chef:
-    Today, I bring my extensive culinary background and artistic flair directly to your table as a personal chef. I specialize in creating customized menus that cater to your unique preferences and dietary requirements. Whether it's an intimate gathering or a grand celebration, I'm dedicated to crafting a dining experience that leaves a lasting impression.
+    Today &#44; I bring my extensive culinary background and artistic flair directly to your table as a personal chef. I specialize in creating customized menus that cater to your unique preferences and dietary requirements. Whether it&#39s an intimate gathering or a grand celebration &#44; I&#39m dedicated to crafting a dining experience that leaves a lasting impression.
     </div>
     
     </section>
