@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
       <footer
-        className="relative z-10 bg-primary bg-opacity-5 pt-16 md:pt-20 lg:pt-24"
+        className="invisible relative z-10 bg-primary bg-opacity-5 pt-16 md:pt-20 lg:pt-24"
         data-wow-delay=".1s"
       >
         <div className="container">
