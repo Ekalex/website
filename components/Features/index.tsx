@@ -11,7 +11,7 @@ const Features = () => {
         <div className="text-Gray">
           <SectionTitle
             title="Services"
-            paragraph="We can always customize service to specific needs"
+            paragraph=""
             center
           />
 
