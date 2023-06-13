@@ -11,7 +11,7 @@ const Features = () => {
         <div className="text-Gray">
           <SectionTitle
             title="Services"
-            paragraph="Boston, The North Shore, Southern NH"
+            paragraph="Boston, NorthShore, Southern NH"
             center
           />
 
