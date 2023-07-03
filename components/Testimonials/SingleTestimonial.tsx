@@ -19,7 +19,7 @@ const SingleTestimonial = ({ testimonial }: { testimonial: Testimonial }) => {
   }
 
   return (
-    <div className="invisible w-full">
+    <div className="w-full">
       <div
         className="wow fadeInUp rounded-md bg-primary p-8 shadow-one lg:px-5 xl:px-8"        
       >
