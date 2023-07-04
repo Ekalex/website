@@ -5,12 +5,12 @@ const Footer = () => {
   return (
     <>
       <footer
-        className="relative z-10 bg-primary bg-opacity-5 pt-16 md:pt-20 lg:pt-24"
+        className="relative place-content-evenly z-10 bg-primary bg-opacity-5 pt-16 md:pt-20 lg:pt-24"
         data-wow-delay=".1s">
          <div className="container"> 
           <div className="-mx-4 flex flex-wrap">
-            <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
-              <div className="mb-12 max-w-[360px] lg:mb-16">
+            <div className="flex-auto">
+              <div className="flex-auto mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
                    <Image
                     src="/images/logo/png/colorLogo-noBackground.png"
@@ -82,15 +82,15 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="justify-center w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
+            <div className="flex-auto w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <a href="http://www.fliprogram.com"><img src="https://app.fliprogram.com/media/site_seals/0001/68/c288e32614e886c589ab46aaa1216322b21273f2.png" alt="FLIP Insurance Seal" width="256px" height="256px" /></a>
             </div> 
           
-            <div className="justify-center w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
+            <div className="flex-auto">
 
               <a
                     href="https://squareup.com/gift/MLSQND4VMTYVV/order"
-                    aria-label="Gift Card"
+                    aria-label="Gift"
                     className=" justify-center fill-current mr-6 text-[#CED3F6] hover:text-primary"
                   >
                     <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="250px" height="250px">    <path d="M 14.402344 4 C 8.6663437 4 4 8.6663437 4 14.402344 L 4 35.597656 C 4 41.333656 8.6663437 46 14.402344 46 L 35.597656 46 C 41.333656 46 46 41.333656 46 35.597656 L 46 14.402344 C 46 8.6663437 41.332703 4 35.595703 4 L 14.402344 4 z M 16.527344 13 L 33.472656 13 C 35.417656 13 37 14.582344 37 16.527344 L 37 33.472656 C 37 35.417656 35.416703 37 33.470703 37 L 16.527344 37 C 14.582344 37 13 35.417656 13 33.472656 L 13 16.527344 C 13 14.582344 14.582344 13 16.527344 13 z M 19 19 L 19 31 L 31 31 L 31 19 L 19 19 z"/></svg>
