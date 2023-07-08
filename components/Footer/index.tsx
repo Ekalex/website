@@ -1,4 +1,5 @@
 import Image from "next/image";
+import flipSeal from "public/images/filpSeal.png";
 import Link from "next/link";
 
 const Footer = () => {
@@ -83,7 +84,10 @@ const Footer = () => {
             </div>
 
             <div className="flex-auto w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
-              <a href="http://www.fliprogram.com"><img src="https://app.fliprogram.com/media/site_seals/0001/68/c288e32614e886c589ab46aaa1216322b21273f2.png" alt="FLIP Insurance Seal" width="256px" height="256px" /></a>
+              <a href="http://www.fliprogram.com"> 
+              <Image
+                  src={flipSeal}
+                  alt="FLIP"/></a>
             </div> 
           
             <div className="flex-auto">

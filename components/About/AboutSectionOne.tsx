@@ -1,4 +1,5 @@
 import Image from "next/image";
+import headShot from "/public/images/me.jpg"
 import SectionTitle from "../Common/SectionTitle";
 
 const checkIcon = (
@@ -23,7 +24,12 @@ const AboutSectionOne = () => {
         Eric Alexander
       </div>
 
-      <img src="/images/me.jpg"className="max-w-prose"></img>
+      <Image
+      src={headShot}
+      alt="Landscape picture"
+      width={800}
+      height={500}
+    />
 
     <br></br>
 
