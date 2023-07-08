@@ -102,3 +102,45 @@ Route (pages)                              Size     First Load JS
 [debug] [2023-07-08T20:02:54.909Z] Error: ENOENT: no such file or directory, open '/home/eric/onThyme/website/.next/server/client-reference-manifest.js'
 [error] 
 [error] Error: An unexpected error has occurred.
+[debug] [2023-07-08T20:04:09.516Z] ----------------------------------------------------------------------
+[debug] [2023-07-08T20:04:09.517Z] Command:       /usr/local/bin/firebase /home/eric/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase deploy --only hosting
+[debug] [2023-07-08T20:04:09.517Z] CLI Version:   12.4.3
+[debug] [2023-07-08T20:04:09.517Z] Platform:      linux
+[debug] [2023-07-08T20:04:09.517Z] Node Version:  v16.16.0
+[debug] [2023-07-08T20:04:09.518Z] Time:          Sat Jul 08 2023 16:04:09 GMT-0400 (Eastern Daylight Time)
+[debug] [2023-07-08T20:04:09.518Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-07-08T20:04:09.554Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-07-08T20:04:09.555Z] > authorizing via signed-in user (eric@onthymepersonalchef.com)
+[debug] [2023-07-08T20:04:09.555Z] [iam] checking project website-211bf for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-07-08T20:04:09.556Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/website-211bf:testIamPermissions [none]
+[debug] [2023-07-08T20:04:09.556Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/website-211bf:testIamPermissions x-goog-quota-user=projects/website-211bf
+[debug] [2023-07-08T20:04:09.556Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/website-211bf:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-07-08T20:04:09.750Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/website-211bf:testIamPermissions 200
+[debug] [2023-07-08T20:04:09.750Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/website-211bf:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-07-08T20:04:09.751Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/website-211bf [none]
+[debug] [2023-07-08T20:04:10.100Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/website-211bf 200
+[debug] [2023-07-08T20:04:10.100Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/website-211bf {"projectId":"website-211bf","projectNumber":"396179417522","displayName":"Website","name":"projects/website-211bf","resources":{"hostingSite":"website-211bf"},"state":"ACTIVE","etag":"1_3fdaccf0-d7a8-4e24-a705-5530d301fe28"}
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[info] 
+
+[info] > Build error occurred
+
+[info] Error: > The `app` directory is experimental. To enable, add `appDir: true` to your `next.config.js` configuration under `experimental`. See https://nextjs.org/docs/messages/experimental-app-dir-config
+    at Object.findPagesDir (/home/eric/onThyme/website/node_modules/.pnpm/next@13.1.6_@babel+core@7.22.5_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/lib/find-pages-dir.js:80:19)
+    at /home/eric/onThyme/website/node_modules/.pnpm/next@13.1.6_@babel+core@7.22.5_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/build/index.js:103:63
+    at async Span.traceAsyncFn (/home/eric/onThyme/website/node_modules/.pnpm/next@13.1.6_@babel+core@7.22.5_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/trace/trace.js:79:20)
+    at async Object.build [as default] (/home/eric/onThyme/website/node_modules/.pnpm/next@13.1.6_@babel+core@7.22.5_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/build/index.js:66:29)
+
+[debug] [2023-07-08T20:04:20.818Z] Error: ENOENT: no such file or directory, open '/home/eric/onThyme/website/.next/server/client-reference-manifest.js'
+[error] 
+[error] Error: An unexpected error has occurred.
