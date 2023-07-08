@@ -1,22 +1,22 @@
-[debug] [2023-07-08T20:06:58.114Z] ----------------------------------------------------------------------
-[debug] [2023-07-08T20:06:58.115Z] Command:       /usr/local/bin/firebase /home/eric/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase deploy --only hosting
-[debug] [2023-07-08T20:06:58.115Z] CLI Version:   12.4.3
-[debug] [2023-07-08T20:06:58.115Z] Platform:      linux
-[debug] [2023-07-08T20:06:58.115Z] Node Version:  v16.16.0
-[debug] [2023-07-08T20:06:58.115Z] Time:          Sat Jul 08 2023 16:06:58 GMT-0400 (Eastern Daylight Time)
-[debug] [2023-07-08T20:06:58.115Z] ----------------------------------------------------------------------
+[debug] [2023-07-08T23:42:18.654Z] ----------------------------------------------------------------------
+[debug] [2023-07-08T23:42:18.655Z] Command:       /usr/local/bin/firebase /home/eric/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase deploy --only hosting
+[debug] [2023-07-08T23:42:18.655Z] CLI Version:   12.4.3
+[debug] [2023-07-08T23:42:18.655Z] Platform:      linux
+[debug] [2023-07-08T23:42:18.656Z] Node Version:  v16.16.0
+[debug] [2023-07-08T23:42:18.656Z] Time:          Sat Jul 08 2023 19:42:18 GMT-0400 (Eastern Daylight Time)
+[debug] [2023-07-08T23:42:18.656Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2023-07-08T20:06:58.153Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2023-07-08T20:06:58.153Z] > authorizing via signed-in user (eric@onthymepersonalchef.com)
-[debug] [2023-07-08T20:06:58.153Z] [iam] checking project website-211bf for permissions ["firebase.projects.get","firebasehosting.sites.update"]
-[debug] [2023-07-08T20:06:58.154Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/website-211bf:testIamPermissions [none]
-[debug] [2023-07-08T20:06:58.154Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/website-211bf:testIamPermissions x-goog-quota-user=projects/website-211bf
-[debug] [2023-07-08T20:06:58.154Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/website-211bf:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
-[debug] [2023-07-08T20:06:58.368Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/website-211bf:testIamPermissions 200
-[debug] [2023-07-08T20:06:58.368Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/website-211bf:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
-[debug] [2023-07-08T20:06:58.368Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/website-211bf [none]
-[debug] [2023-07-08T20:06:58.617Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/website-211bf 200
-[debug] [2023-07-08T20:06:58.617Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/website-211bf {"projectId":"website-211bf","projectNumber":"396179417522","displayName":"Website","name":"projects/website-211bf","resources":{"hostingSite":"website-211bf"},"state":"ACTIVE","etag":"1_3fdaccf0-d7a8-4e24-a705-5530d301fe28"}
+[debug] [2023-07-08T23:42:18.693Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-07-08T23:42:18.693Z] > authorizing via signed-in user (eric@onthymepersonalchef.com)
+[debug] [2023-07-08T23:42:18.693Z] [iam] checking project website-211bf for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-07-08T23:42:18.694Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/website-211bf:testIamPermissions [none]
+[debug] [2023-07-08T23:42:18.694Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/website-211bf:testIamPermissions x-goog-quota-user=projects/website-211bf
+[debug] [2023-07-08T23:42:18.694Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/website-211bf:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-07-08T23:42:18.952Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/website-211bf:testIamPermissions 200
+[debug] [2023-07-08T23:42:18.952Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/website-211bf:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-07-08T23:42:18.953Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/website-211bf [none]
+[debug] [2023-07-08T23:42:19.196Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/website-211bf 200
+[debug] [2023-07-08T23:42:19.196Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/website-211bf {"projectId":"website-211bf","projectNumber":"396179417522","displayName":"Website","name":"projects/website-211bf","resources":{"hostingSite":"website-211bf"},"state":"ACTIVE","etag":"1_a47a4e33-93cf-4405-8ada-c14a2705a698"}
 [info] 
    Thank you for trying our early preview of Next.js support on Firebase Hosting.
    During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
@@ -40,23 +40,6 @@ warn  - Experimental features are not covered by semver, and may cause unexpecte
 
 [info] info  - Linting and checking validity of types...
 
-[info] 
-./components/About/AboutSectionOne.tsx
-26:7  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Use `<Image />` from `next/image` instead to utilize Image Optimization. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
-26:7  Warning: img elements must have an alt prop, either with meaningful text, or an empty string for decorative images.  jsx-a11y/alt-text
-
-./components/Footer/index.tsx
-86:51  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Use `<Image />` from `next/image` instead to utilize Image Optimization. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
-
-./components/Hero/index.tsx
-13:13  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Use `<Image />` from `next/image` instead to utilize Image Optimization. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
-13:13  Warning: img elements must have an alt prop, either with meaningful text, or an empty string for decorative images.  jsx-a11y/alt-text
-
-./components/Video/index.tsx
-61:9  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Use `<Image />` from `next/image` instead to utilize Image Optimization. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
-
-info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/basic-features/eslint#disabling-rules
-
 [info] info  - Collecting page data...
 
 [info] info  - Generating static pages (0/11)
@@ -75,30 +58,30 @@ info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/d
 
 [info] Route (app)                                Size     First Load JS
 ┌ ○ /                                      0 B                0 B
-├ ○ /about                                 149 B          82.8 kB
-├ ○ /blog                                  149 B          82.8 kB
+├ ○ /about                                 611 B            88 kB
+├ ○ /blog                                  145 B          82.8 kB
 ├ ○ /blog-details                          172 B          87.6 kB
-├ ○ /blog-sidebar                          183 B          89.7 kB
-├ ○ /contact                               175 B          84.9 kB
-├ ○ /error                                 149 B          82.8 kB
-├ ○ /signin                                175 B          84.9 kB
-└ ○ /signup                                149 B          82.8 kB
+├ ○ /blog-sidebar                          181 B          89.7 kB
+├ ○ /contact                               617 B          90.1 kB
+├ ○ /error                                 145 B          82.8 kB
+├ ○ /signin                                172 B          84.9 kB
+└ ○ /signup                                145 B          82.8 kB
 + First Load JS shared by all              82.7 kB
   ├ chunks/220-0077257c52b9b5ef.js         80.4 kB
   ├ chunks/main-app-d45708088d07a1ec.js    215 B
-  └ chunks/webpack-0babc83249688479.js     2.07 kB
+  └ chunks/webpack-a7c96bec04bb8db0.js     2.07 kB
 
 Route (pages)                              Size     First Load JS
 ─ ○ /404                                   178 B          81.2 kB
 + First Load JS shared by all              81 kB
   ├ chunks/main-8140a427f1cfb5ad.js        78.7 kB
   ├ chunks/pages/_app-57faed81754d6a3b.js  191 B
-  └ chunks/webpack-0babc83249688479.js     2.07 kB
+  └ chunks/webpack-a7c96bec04bb8db0.js     2.07 kB
 
 [info] 
 ○  (Static)  automatically rendered as static HTML (uses no initial props)
 
 
-[debug] [2023-07-08T20:07:13.471Z] Error: ENOENT: no such file or directory, open '/home/eric/onThyme/website/.next/server/client-reference-manifest.js'
+[debug] [2023-07-08T23:42:36.627Z] Error: ENOENT: no such file or directory, open '/home/eric/onThyme/website/.next/server/client-reference-manifest.js'
 [error] 
 [error] Error: An unexpected error has occurred.
