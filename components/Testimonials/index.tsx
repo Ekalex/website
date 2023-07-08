@@ -23,10 +23,10 @@ const testimonialData: Testimonial[] = [
   },
   {
     id: 3,
-    name: "Shannon Shaw",
+    name: "Alok Solomani",
     designation: "Previous Clients",
     content:
-      "We are having an incredible experience with Eric! Right from the start, he was professional and paid close attention to every detail. Eric took the time to understand our family's food preferences and prepared delicious and healthy meals that we all loved. Having our meals ready to go has made life so much easier, saving us a lot of time and effort. We really appreciate Eric's cooking skills and the variety he brings to our meals every week. We highly recommend Eric to anyone looking for a talented personal chef!'",
+      "We hired Eric to cook for a 50th birthday party.  He is organized and easy to work with.  He crafted a great menu and cheerfully accommodated last minute requests.  The execution was spot on - he shopped, planned, cooked, plated and delivered to perfection. We highly recommend.'",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },
@@ -34,7 +34,7 @@ const testimonialData: Testimonial[] = [
 
 const Testimonials = () => {
   return (
-    <section className=" relative z-10 bg-primary/[.03] py-16 md:py-20 lg:py-28">
+    <section className="relative z-10 bg-primary/[.03] py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
           title="Reviews"
