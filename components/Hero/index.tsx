@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import logo from "/public/images/logo/png/colorLogo-noBackground.png"
+import logo from "gs://website-211bf.appspot.com/129161034_padded_logo.png"
 import { log } from "console";
 
 const Hero = () => {

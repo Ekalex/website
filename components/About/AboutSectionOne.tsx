@@ -1,5 +1,5 @@
 import Image from "next/image";
-import headShot from "/public/images/me.jpg"
+import headShot from "gs://website-211bf.appspot.com/me.jpg"
 import SectionTitle from "../Common/SectionTitle";
 
 const checkIcon = (

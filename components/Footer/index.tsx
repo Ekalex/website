@@ -1,5 +1,6 @@
 import Image from "next/image";
-import flipSeal from "public/images/filpSeal.png";
+import flipSeal from "gs://website-211bf.appspot.com/filpSeal.png";
+import logo from "gs://website-211bf.appspot.com/colorLogo-noBackground.png"
 import Link from "next/link";
 
 const Footer = () => {
@@ -14,7 +15,7 @@ const Footer = () => {
               <div className="flex-auto mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
                    <Image
-                    src="/images/logo/png/colorLogo-noBackground.png"
+                    src={logo}
                     alt="logo"
                     className="hidden w-full dark:block"
                     width={140}
