@@ -1,6 +1,7 @@
 // useFirebaseStorage.js
 import { useEffect, useState } from 'react';
 import storage from '/firebaseConfig';
+import { useClient } from 'next/client';
 
 const useFirebaseStorage = (filePath) => {
   const [imageUrl, setImageUrl] = useState('');
@@ -22,3 +23,4 @@ const useFirebaseStorage = (filePath) => {
 };
 
 export default useFirebaseStorage;
+
