@@ -2,11 +2,13 @@ import AboutSectionOne from "@/components/About/AboutSectionOne";
 /*import AboutSectionTwo from "@/components/About/AboutSectionTwo";*/
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import useFirebaseStorage from "@/useFirebaseStorage";
-import { useClient } from 'react';
+import { useEffect } from 'react';
 
 
 const AboutPage = () => {
-  useClient();
+  useEffect(() => {
+
+  },[]);
 
   return (
     
