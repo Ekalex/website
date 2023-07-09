@@ -1,6 +1,6 @@
 // useFirebaseStorage.js
 import { useEffect, useState } from 'react';
-import storage from './firebaseConfig';
+import storage from '/firebaseConfig';
 
 const useFirebaseStorage = (filePath) => {
   const [imageUrl, setImageUrl] = useState('');
