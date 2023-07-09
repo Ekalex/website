@@ -5,6 +5,10 @@ import { useEffect, useState } from 'react';
 
 
 const Contact = () => {
+  useEffect(() => {
+    // This empty useEffect will mark the parent component as a Client Component
+  }, []);
+
   const imageUrl = useFirebaseStorage('gs://website-211bf.appspot.com/chocTart.jpg');
   return (
     <section className="mb-32 text-center lg:text-left">

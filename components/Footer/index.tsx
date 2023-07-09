@@ -5,6 +5,10 @@ import { useEffect, useState } from 'react';
 
 
 const Footer = () => {
+  useEffect(() => {
+    // This empty useEffect will mark the parent component as a Client Component
+  }, []);
+
   const imageUrl1 = useFirebaseStorage(['gs://website-211bf.appSpot.com/colorLogo-noBackground.png'])
 
   const imageUrl2 = useFirebaseStorage(['gs://website-211bf.appspot.com/filpSeal.png'])

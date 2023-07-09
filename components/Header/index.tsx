@@ -8,6 +8,10 @@ import useFirebaseStorage from "@/useFirebaseStorage";
 import menuData from "./menuData";
 
 const Header = () => {
+  useEffect(() => {
+    // This empty useEffect will mark the parent component as a Client Component
+  }, []);
+
   const imageUrl = useFirebaseStorage('gs://website-211bf.appSpot.com/colorLogo-noBackground.png')
   // Navbar toggle
   const [navbarOpen, setNavbarOpen] = useState(false);

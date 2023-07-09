@@ -1,7 +1,7 @@
 import Image from "next/image";
 import useFirebaseStorage from "@/useFirebaseStorage";
 import SectionTitle from "../Common/SectionTitle";
-import { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react';
 
 
 const checkIcon = (
@@ -11,6 +11,11 @@ const checkIcon = (
 );
 
 const AboutSectionOne = () => {
+  useEffect(() => {
+    // This empty useEffect will mark the parent component as a Client Component
+  }, []);
+
+
   const imageUrl = useFirebaseStorage('gs://website-211bf.appspot.com/me.jpg');
   const List = ({ text }) => (
     <p className="mb-5 flex items-center text-lg font-medium text-body-color">
