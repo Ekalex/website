@@ -12,11 +12,16 @@ import Video from "@/components/Video";
 import { Inter } from "@next/font/google";
 import Image from "next/image";
 import useFirebaseStorage from "@/useFirebaseStorage";
+import { useEffect } from "react";
 
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
+  useEffect(() => {
+
+  },[]);
+  
   return (
     <>
       <ScrollUp />
