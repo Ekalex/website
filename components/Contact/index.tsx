@@ -1,6 +1,7 @@
 import NewsLatterBox from "./NewsLatterBox";
 import Image from "next/image";
 import useFirebaseStorage from "@/useFirebaseStorage";
+import { useEffect, useState } from 'react';
 
 
 const Contact = () => {
