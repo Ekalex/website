@@ -1,0 +1,126 @@
+[debug] [2023-07-09T00:31:13.140Z] ----------------------------------------------------------------------
+[debug] [2023-07-09T00:31:13.141Z] Command:       /usr/local/bin/firebase /home/eric/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase deploy --only hosting
+[debug] [2023-07-09T00:31:13.141Z] CLI Version:   12.4.3
+[debug] [2023-07-09T00:31:13.141Z] Platform:      linux
+[debug] [2023-07-09T00:31:13.141Z] Node Version:  v16.16.0
+[debug] [2023-07-09T00:31:13.142Z] Time:          Sat Jul 08 2023 20:31:13 GMT-0400 (Eastern Daylight Time)
+[debug] [2023-07-09T00:31:13.142Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-07-09T00:31:13.179Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-07-09T00:31:13.180Z] > authorizing via signed-in user (eric@onthymepersonalchef.com)
+[debug] [2023-07-09T00:31:13.180Z] [iam] checking project website-211bf for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-07-09T00:31:13.181Z] > refreshing access token with scopes: []
+[debug] [2023-07-09T00:31:13.182Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-07-09T00:31:13.182Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-07-09T00:31:13.392Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-07-09T00:31:13.393Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-07-09T00:31:13.401Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/website-211bf:testIamPermissions [none]
+[debug] [2023-07-09T00:31:13.401Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/website-211bf:testIamPermissions x-goog-quota-user=projects/website-211bf
+[debug] [2023-07-09T00:31:13.401Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/website-211bf:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-07-09T00:31:13.640Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/website-211bf:testIamPermissions 200
+[debug] [2023-07-09T00:31:13.640Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/website-211bf:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-07-09T00:31:13.640Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/website-211bf [none]
+[debug] [2023-07-09T00:31:13.996Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/website-211bf 200
+[debug] [2023-07-09T00:31:13.996Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/website-211bf {"projectId":"website-211bf","projectNumber":"396179417522","displayName":"Website","name":"projects/website-211bf","resources":{"hostingSite":"website-211bf","storageBucket":"website-211bf.appspot.com","locationId":"us-east1"},"state":"ACTIVE","etag":"1_07f38e8b-6e98-4ef8-9e35-73d80b1570a8"}
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[info] - info Creating an optimized production build...
+
+[info] Failed to compile.
+
+gs://website-211bf.appspot.com/colorLogo-noBackground.png
+Module build failed: UnhandledSchemeError: Reading from "gs://website-211bf.appspot.com/colorLogo-noBackground.png" is not handled by plugins (Unhandled scheme).
+Webpack supports "data:" and "file:" URIs by default.
+You may need an additional plugin to handle "gs:" URIs.
+    at /home/eric/onThyme/website/node_modules/next/dist/compiled/webpack/bundle5.js:28:399772
+    at Hook.eval [as callAsync] (eval at create (/home/eric/onThyme/website/node_modules/next/dist/compiled/webpack/bundle5.js:13:28867), <anonymous>:6:1)
+    at Object.processResource (/home/eric/onThyme/website/node_modules/next/dist/compiled/webpack/bundle5.js:28:399697)
+    at processResource (/home/eric/onThyme/website/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5308)
+    at iteratePitchingLoaders (/home/eric/onThyme/website/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4667)
+    at runLoaders (/home/eric/onThyme/website/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8590)
+    at NormalModule._doBuild (/home/eric/onThyme/website/node_modules/next/dist/compiled/webpack/bundle5.js:28:399559)
+    at NormalModule.build (/home/eric/onThyme/website/node_modules/next/dist/compiled/webpack/bundle5.js:28:401587)
+    at /home/eric/onThyme/website/node_modules/next/dist/compiled/webpack/bundle5.js:28:81981
+    at NormalModule.needBuild (/home/eric/onThyme/website/node_modules/next/dist/compiled/webpack/bundle5.js:28:405663)
+
+Import trace for requested module:
+gs://website-211bf.appspot.com/colorLogo-noBackground.png
+./components/Footer/index.tsx
+./app/layout.tsx
+
+gs://website-211bf.appspot.com/filpSeal.png
+Module build failed: UnhandledSchemeError: Reading from "gs://website-211bf.appspot.com/filpSeal.png" is not handled by plugins (Unhandled scheme).
+Webpack supports "data:" and "file:" URIs by default.
+You may need an additional plugin to handle "gs:" URIs.
+    at /home/eric/onThyme/website/node_modules/next/dist/compiled/webpack/bundle5.js:28:399772
+    at Hook.eval [as callAsync] (eval at create (/home/eric/onThyme/website/node_modules/next/dist/compiled/webpack/bundle5.js:13:28867), <anonymous>:6:1)
+    at Object.processResource (/home/eric/onThyme/website/node_modules/next/dist/compiled/webpack/bundle5.js:28:399697)
+    at processResource (/home/eric/onThyme/website/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5308)
+    at iteratePitchingLoaders (/home/eric/onThyme/website/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4667)
+    at runLoaders (/home/eric/onThyme/website/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8590)
+    at NormalModule._doBuild (/home/eric/onThyme/website/node_modules/next/dist/compiled/webpack/bundle5.js:28:399559)
+    at NormalModule.build (/home/eric/onThyme/website/node_modules/next/dist/compiled/webpack/bundle5.js:28:401587)
+    at /home/eric/onThyme/website/node_modules/next/dist/compiled/webpack/bundle5.js:28:81981
+    at NormalModule.needBuild (/home/eric/onThyme/website/node_modules/next/dist/compiled/webpack/bundle5.js:28:405663)
+
+Import trace for requested module:
+gs://website-211bf.appspot.com/filpSeal.png
+./components/Footer/index.tsx
+./app/layout.tsx
+
+gs://website-211bf.appspot.com/me.jpg
+Module build failed: UnhandledSchemeError: Reading from "gs://website-211bf.appspot.com/me.jpg" is not handled by plugins (Unhandled scheme).
+Webpack supports "data:" and "file:" URIs by default.
+You may need an additional plugin to handle "gs:" URIs.
+    at /home/eric/onThyme/website/node_modules/next/dist/compiled/webpack/bundle5.js:28:399772
+    at Hook.eval [as callAsync] (eval at create (/home/eric/onThyme/website/node_modules/next/dist/compiled/webpack/bundle5.js:13:28867), <anonymous>:6:1)
+    at Object.processResource (/home/eric/onThyme/website/node_modules/next/dist/compiled/webpack/bundle5.js:28:399697)
+    at processResource (/home/eric/onThyme/website/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5308)
+    at iteratePitchingLoaders (/home/eric/onThyme/website/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4667)
+    at runLoaders (/home/eric/onThyme/website/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8590)
+    at NormalModule._doBuild (/home/eric/onThyme/website/node_modules/next/dist/compiled/webpack/bundle5.js:28:399559)
+    at NormalModule.build (/home/eric/onThyme/website/node_modules/next/dist/compiled/webpack/bundle5.js:28:401587)
+    at /home/eric/onThyme/website/node_modules/next/dist/compiled/webpack/bundle5.js:28:81981
+    at NormalModule.needBuild (/home/eric/onThyme/website/node_modules/next/dist/compiled/webpack/bundle5.js:28:405663)
+
+Import trace for requested module:
+gs://website-211bf.appspot.com/me.jpg
+./components/About/AboutSectionOne.tsx
+./app/about/page.tsx
+
+gs://website-211bf.appspot.com/129161034_padded_logo.png
+Module build failed: UnhandledSchemeError: Reading from "gs://website-211bf.appspot.com/129161034_padded_logo.png" is not handled by plugins (Unhandled scheme).
+Webpack supports "data:" and "file:" URIs by default.
+You may need an additional plugin to handle "gs:" URIs.
+    at /home/eric/onThyme/website/node_modules/next/dist/compiled/webpack/bundle5.js:28:399772
+    at Hook.eval [as callAsync] (eval at create (/home/eric/onThyme/website/node_modules/next/dist/compiled/webpack/bundle5.js:13:28867), <anonymous>:6:1)
+    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/home/eric/onThyme/website/node_modules/next/dist/compiled/webpack/bundle5.js:13:26021)
+    at Object.processResource (/home/eric/onThyme/website/node_modules/next/dist/compiled/webpack/bundle5.js:28:399697)
+    at processResource (/home/eric/onThyme/website/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5308)
+    at iteratePitchingLoaders (/home/eric/onThyme/website/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4667)
+    at runLoaders (/home/eric/onThyme/website/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8590)
+    at NormalModule._doBuild (/home/eric/onThyme/website/node_modules/next/dist/compiled/webpack/bundle5.js:28:399559)
+    at NormalModule.build (/home/eric/onThyme/website/node_modules/next/dist/compiled/webpack/bundle5.js:28:401587)
+    at /home/eric/onThyme/website/node_modules/next/dist/compiled/webpack/bundle5.js:28:81981
+
+Import trace for requested module:
+gs://website-211bf.appspot.com/129161034_padded_logo.png
+./components/Hero/index.tsx
+./app/page.tsx
+
+
+[info] 
+
+[info] > Build failed because of webpack errors
+
+[debug] [2023-07-09T00:31:27.759Z] Error: ENOENT: no such file or directory, open '/home/eric/onThyme/website/.next/export-marker.json'
+[error] 
+[error] Error: An unexpected error has occurred.
