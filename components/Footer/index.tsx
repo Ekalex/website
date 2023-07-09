@@ -1,9 +1,14 @@
+import useFirebaseStorage from "@/useFirebaseStorage";
 import Image from "next/image";
-import flipSeal from "gs://website-211bf.appspot.com/filpSeal.png";
-import logo from "gs://website-211bf.appspot.com/colorLogo-noBackground.png"
 import Link from "next/link";
 
+
 const Footer = () => {
+  const imageUrl1 = useFirebaseStorage(['gs://website-211bf.appSpot.com/colorLogo-noBackground.png'])
+
+  const imageUrl2 = useFirebaseStorage(['gs://website-211bf.appspot.com/filpSeal.png'])
+  
+
   return (
     <>
       <footer
@@ -15,7 +20,7 @@ const Footer = () => {
               <div className="flex-auto mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
                    <Image
-                    src={logo}
+                    src={'gs://website-211bf.appSpot.com/colorLogo-noBackground.png'}
                     alt="logo"
                     className="hidden w-full dark:block"
                     width={140}
@@ -87,7 +92,7 @@ const Footer = () => {
             <div className="flex-auto w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <a href="http://www.fliprogram.com"> 
               <Image
-                  src={flipSeal}
+                  src={'gs://website-211bf.appSpot.com/filpSeal.png'}
                   alt="FLIP"/></a>
             </div> 
           

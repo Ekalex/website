@@ -1,9 +1,10 @@
 import NewsLatterBox from "./NewsLatterBox";
 import Image from "next/image";
-import chocTart from "public/images/chocTart.jpg"
+import useFirebaseStorage from "@/useFirebaseStorage";
 
 
 const Contact = () => {
+  const imageUrl = useFirebaseStorage('gs://website-211bf.appspot.com/chocTart.jpg');
   return (
     <section className="mb-32 text-center lg:text-left">
     <div className="px-6 py-12 md:px-12">
@@ -21,7 +22,7 @@ const Contact = () => {
 
         <div className="flex">
         <Image
-            src={chocTart}
+            src={'gs://website-211bf.appspot.com/chocTart.jpg'}
             alt="Chocolate Cremeaux" />
           
         </div>

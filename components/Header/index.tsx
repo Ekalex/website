@@ -2,10 +2,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import useFirebaseStorage from "@/useFirebaseStorage";
 
 import menuData from "./menuData";
 
 const Header = () => {
+  const imageUrl = useFirebaseStorage('gs://website-211bf.appSpot.com/colorLogo-noBackground.png')
   // Navbar toggle
   const [navbarOpen, setNavbarOpen] = useState(false);
   const navbarToggleHandler = () => {
@@ -54,7 +56,7 @@ const Header = () => {
                 } `}
               >
                 <Image
-                  src="gs://website-211bf.appspot.com/colorLogo-noBackground.png"
+                  src={'gs://website-211bf.appSpot.com/colorLogo-noBackground.png'}
                   alt="logo"
                   width={140}
                   height={30}

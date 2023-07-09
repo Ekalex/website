@@ -1,5 +1,5 @@
 import Image from "next/image";
-import headShot from "gs://website-211bf.appspot.com/me.jpg"
+import useFirebaseStorage from "@/useFirebaseStorage";
 import SectionTitle from "../Common/SectionTitle";
 
 const checkIcon = (
@@ -9,6 +9,7 @@ const checkIcon = (
 );
 
 const AboutSectionOne = () => {
+  const imageUrl = useFirebaseStorage('gs://website-211bf.appspot.com/me.jpg');
   const List = ({ text }) => (
     <p className="mb-5 flex items-center text-lg font-medium text-body-color">
       <span className="mr-4 flex h-[30px] w-[30px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary">
@@ -25,7 +26,7 @@ const AboutSectionOne = () => {
       </div>
 
       <Image
-      src={headShot}
+      src={'gs://website-211bf.appspot.com/me.jpg'}
       alt="Landscape picture"
       width={800}
       height={500}
