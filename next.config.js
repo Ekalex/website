@@ -5,4 +5,4 @@ const nextConfig = {
   },
 };
 
-module.exports = nextConfig;
+module.exports = { images: {domains: ['gs://website-211bf.appspot.com/']}};
