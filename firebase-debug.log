@@ -254,3 +254,51 @@ gs://website-211bf.appspot.com/129161034_padded_logo.png
 [debug] [2023-07-09T01:06:53.917Z] Error: ENOENT: no such file or directory, open '/home/eric/onThyme/website/.next/export-marker.json'
 [error] 
 [error] Error: An unexpected error has occurred.
+[debug] [2023-07-14T14:32:09.378Z] ----------------------------------------------------------------------
+[debug] [2023-07-14T14:32:09.379Z] Command:       /usr/local/bin/firebase /home/eric/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase init
+[debug] [2023-07-14T14:32:09.379Z] CLI Version:   12.4.3
+[debug] [2023-07-14T14:32:09.379Z] Platform:      linux
+[debug] [2023-07-14T14:32:09.379Z] Node Version:  v16.16.0
+[debug] [2023-07-14T14:32:09.380Z] Time:          Fri Jul 14 2023 10:32:09 GMT-0400 (Eastern Daylight Time)
+[debug] [2023-07-14T14:32:09.380Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-07-14T14:32:09.418Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-07-14T14:32:09.418Z] > authorizing via signed-in user (eric@onthymepersonalchef.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/eric/onThyme/website
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-07-14T14:32:13.584Z] Using project from CLI flag: website-211bf
+[debug] [2023-07-14T14:32:13.585Z] > refreshing access token with scopes: []
+[debug] [2023-07-14T14:32:13.586Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-07-14T14:32:13.586Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-07-14T14:32:13.770Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2023-07-14T14:32:13.770Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-07-14T14:32:13.771Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/website-211bf [none]
+[debug] [2023-07-14T14:32:13.965Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/website-211bf 401
+[debug] [2023-07-14T14:32:13.965Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/website-211bf {"error":{"code":401,"message":"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED"}}
+[debug] [2023-07-14T14:32:13.966Z] HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2023-07-14T14:32:14.061Z] FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+    at responseToError (/home/eric/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/responseToError.js:49:12)
+    at RetryOperation._fn (/home/eric/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/apiv2.js:288:77)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project website-211bf. Please make sure the project exists and your account has permission to access it.
