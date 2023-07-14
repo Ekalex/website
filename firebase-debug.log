@@ -1,0 +1,94 @@
+[debug] [2023-07-14T20:15:05.716Z] ----------------------------------------------------------------------
+[debug] [2023-07-14T20:15:05.717Z] Command:       /usr/local/bin/firebase /home/eric/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase deploy
+[debug] [2023-07-14T20:15:05.718Z] CLI Version:   12.4.3
+[debug] [2023-07-14T20:15:05.718Z] Platform:      linux
+[debug] [2023-07-14T20:15:05.718Z] Node Version:  v16.16.0
+[debug] [2023-07-14T20:15:05.718Z] Time:          Fri Jul 14 2023 16:15:05 GMT-0400 (Eastern Daylight Time)
+[debug] [2023-07-14T20:15:05.718Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-07-14T20:15:05.757Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-07-14T20:15:05.758Z] > authorizing via signed-in user (eric@onthymepersonalchef.com)
+[debug] [2023-07-14T20:15:05.758Z] [iam] checking project website-211bf for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-07-14T20:15:05.759Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/website-211bf:testIamPermissions [none]
+[debug] [2023-07-14T20:15:05.759Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/website-211bf:testIamPermissions x-goog-quota-user=projects/website-211bf
+[debug] [2023-07-14T20:15:05.760Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/website-211bf:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-07-14T20:15:05.990Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/website-211bf:testIamPermissions 200
+[debug] [2023-07-14T20:15:05.990Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/website-211bf:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-07-14T20:15:05.991Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/website-211bf [none]
+[debug] [2023-07-14T20:15:06.293Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/website-211bf 200
+[debug] [2023-07-14T20:15:06.293Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/website-211bf {"projectId":"website-211bf","projectNumber":"396179417522","displayName":"Website","name":"projects/website-211bf","resources":{"hostingSite":"website-211bf","storageBucket":"website-211bf.appspot.com","locationId":"us-east1"},"state":"ACTIVE","etag":"1_8a9bcf05-c563-4f7a-baed-52970f038d75"}
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[info] warn  - Invalid next.config.js options detected: 
+
+[info]   - The value at .output must be one of: "standalone".
+
+[info] 
+See more info here: https://nextjs.org/docs/messages/invalid-next-config
+
+[info] warn  - You have enabled experimental feature (appDir) in next.config.js.
+
+[info] warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+
+[info] info  - Thank you for testing `appDir` please leave your feedback at https://nextjs.link/app-feedback
+
+[info] info  - Creating an optimized production build...
+
+[info] info  - Compiled successfully
+
+[info] info  - Linting and checking validity of types...
+
+[info] info  - Collecting page data...
+
+[info] info  - Generating static pages (0/11)
+
+[info] info  - Generating static pages (2/11)
+
+[info] info  - Generating static pages (5/11)
+
+[info] info  - Generating static pages (8/11)
+
+[info] info  - Generating static pages (11/11)
+
+[info] info  - Finalizing page optimization...
+
+[info] 
+
+[info] Route (app)                                Size     First Load JS
+┌ ○ /                                      0 B                0 B
+├ ○ /about                                 609 B            88 kB
+├ ○ /blog                                  144 B          82.8 kB
+├ ○ /blog-details                          170 B          87.6 kB
+├ ○ /blog-sidebar                          181 B          89.7 kB
+├ ○ /contact                               614 B          90.1 kB
+├ ○ /error                                 144 B          82.8 kB
+├ ○ /signin                                172 B          84.9 kB
+└ ○ /signup                                144 B          82.8 kB
++ First Load JS shared by all              82.7 kB
+  ├ chunks/17-4e8fdc7dead168ed.js          80.4 kB
+  ├ chunks/main-app-a58c02f057762f4f.js    216 B
+  └ chunks/webpack-3d1e2d7b29aaaa31.js     2.07 kB
+
+Route (pages)                              Size     First Load JS
+─ ○ /404                                   179 B          81.2 kB
++ First Load JS shared by all              81 kB
+  ├ chunks/main-e9ff11a58bf7a0ec.js        78.7 kB
+  ├ chunks/pages/_app-5841ab2cb3aa228d.js  192 B
+  └ chunks/webpack-3d1e2d7b29aaaa31.js     2.07 kB
+
+[info] 
+○  (Static)  automatically rendered as static HTML (uses no initial props)
+
+
+[debug] [2023-07-14T20:15:24.855Z] Error: ENOENT: no such file or directory, open '/home/eric/onThyme/website/.next/server/client-reference-manifest.js'
+[error] 
+[error] Error: An unexpected error has occurred.
