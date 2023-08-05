@@ -12,16 +12,6 @@ module.exports = {
       center: true,
       padding: "1rem",
     },
-    colors: {
-      current: "currentColor",
-      transparent: "transparent",
-      Gray: "#CED0D4",
-      Charcoal: "#525456",
-      dark: "#dbecfc",
-      primary: "#a9d2fe",
-      yellow: "#FBB040",
-      
-    },
     screens: {
       xs: "450px",
       // => @media (min-width: 450px) { ... }
@@ -42,6 +32,15 @@ module.exports = {
       // => @media (min-width: 1400px) { ... }
     },
     extend: {
+      colors: {
+        current: "currentColor",
+        transparent: "transparent",
+        Gray: "#CED0D4",
+        Charcoal: "#525456",
+        dark: "#dbecfc",
+        primary: "#a9d2fe",
+        yellow: "#FBB040",
+      },
       boxShadow: {
         signUp: "0px 5px 10px rgba(4, 10, 34, 0.2)",
         one: "0px 2px 3px rgba(7, 7, 77, 0.05)",
