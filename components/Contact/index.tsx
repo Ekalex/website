@@ -1,5 +1,6 @@
 import NewsLatterBox from "./NewsLatterBox";
 import Image from "next/image";
+import flipLogo from '../../public/images/homepage/background-food-bowl.svg';
 
 const Contact = () => {
   return (
@@ -20,8 +21,8 @@ const Contact = () => {
           <div className="flex">
 
             <Image
-              src="/images/homepage/background-food-bowl.svg"
-              alt="FLIP Insurance Seal"
+              src={flipLogo}
+              alt="Food bowl picture"
               className="bg-white rounded-lg"
               width={502}
               height={971} />

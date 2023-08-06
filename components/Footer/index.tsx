@@ -12,13 +12,11 @@ const Footer = () => {
             <div className="flex-auto flex items-center justify-center md:justify-normal">
               <div className="flex-auto mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8">
-                  <Image
-                    src="/images/logo/png/colorLogo-noBackground.png"
+                  <img src="/images/logo/png/colorLogo-noBackground.png"
                     alt="logo"
                     className="hidden w-full dark:block"
-                    width={140}
-                    height={30}
-                  />
+                    width="140px"
+                    height="30px" />
                 </Link>
 
                 <div className="flex items-center justify-center">
@@ -84,12 +82,11 @@ const Footer = () => {
 
             <div className="flex-auto w-full px-4 sm:w-1/2 lg:w-2/12 flex items-center justify-center">
               <a href="http://www.fliprogram.com">
-                <Image
-                  src="/images/FLIP_insurance_seal.png"
+                <img src="/images/FLIP_insurance_seal.png"
                   alt="FLIP Insurance Seal"
                   className="bg-white rounded-lg"
-                  width={256}
-                  height={256} />
+                  width="256px"
+                  height="256px" />
               </a>
             </div>
 
