@@ -64,7 +64,7 @@ const AboutSectionOne = () => {
 
       <div className="p-1">
         Personal Chef:
-        Today&#44; I bring my extensive culinary background and artistic flair directly to your table as a personal chef. I specialize in creating customized menus that cater to your unique preferences and dietary requirements. Whether it's an intimate gathering or a grand celebration&#44; I'm dedicated to crafting a dining experience that leaves a lasting impression.
+        Today&#44; I bring my extensive culinary background and artistic flair directly to your table as a personal chef. I specialize in creating customized menus that cater to your unique preferences and dietary requirements. Whether it&apos;s an intimate gathering or a grand celebration&#44; I&apos;m dedicated to crafting a dining experience that leaves a lasting impression.
       </div>
 
     </section>
