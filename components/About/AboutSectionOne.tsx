@@ -23,46 +23,32 @@ const AboutSectionOne = () => {
         Eric Alexander
       </div>
 
-      <img src="/images/me.jpg"className="max-w-prose"></img>
+      <picture className="max-w-prose">
+        <source srcSet='/images/chef_eric_1280.webp' type="image/webp" />
+        <source srcSet='/images/chef_eric_1280.jpg' type="image/jpeg" />
+        <img src='/images/chef_eric_1280.jpg' alt="Photo of Chef Eric" />
+      </picture>      
 
+      <div>
+        <br></br>
+    <h2>Education</h2>
+    <p>I polished my cooking skills at Johnson and Wales University, diving into both the art and the practical side of gastronomy. The experienced chefs there helped me grow and really fueled my passion for creating great food.</p>
     <br></br>
 
-    <div className="p-1">
-    Education: <br></br>
-    I refined my skills at Johnson and Wales University where I immersed myself in the art and science of gastronomy. The renowned chefs there nurtured my talent and ignited my love for creating culinary masterpieces.
-    </div>
-
+    <h2>Work History</h2>
+    <p>My journey in the culinary world began in Newport, Rhode Island, a town known for its coastal beauty and lively food scene. I embraced the local ingredients and started crafting dishes that became popular among the locals and got some attention in the culinary circle.</p>
     <br></br>
+    <p>Feeling the urge to explore further, I moved back to my hometown of Boston, where I got the opportunity to work at Catalyst. There, I worked with a dedicated team, and the emphasis on using seasonal and high-quality ingredients allowed me to sharpen my skills and provide memorable dining experiences to our patrons.</p>
+    <br></br>
+    <p>Later, at Branch Line, I found a new appreciation for the quality of food we could create. The restaurant's focus on rotisserie cooking and farm-to-table practices pushed me to take my skills up a notch. It was a great experience, working with fresh, locally sourced ingredients and creating dishes that were genuinely appreciated.</p>
+    <br></br>
+    <p>A significant part of my culinary journey was the time I spent at Walt Disney World. Here, I learned about managing large-scale culinary operations while keeping a strong focus on quality. Serving guests from all over the world was an eye-opening experience.</p>
     
-    <div className="p-1">
-    Work History: <br></br>
-    My culinary journey started in Newport&#44; Rhode Island&#44; a town brimming with coastal charm and a vibrant food scene. I embraced the local ingredients and crafted dishes that delighted patrons and garnered recognition within the culinary community.
-    </div>
 
-    <br></br>
-    
-    <div className="p-1">
-    Driven by a thirst for exploration &#44; I returned to my hometown of Boston&#44; leaving my mark on the city&#39;s gastronomic landscape. At Catalyst&#44; had the pleasure of working with a team dedicated to culinary excellence. The emphasis on seasonal flavors and high-quality ingredients allowed me to showcase my skills and create memorable dining experiences.
-    </div>
+    <h2>Personal Chef</h2>
+    <p>Now, as a personal chef, I bring all that experience to your table. I specialize in creating custom menus that match your unique taste preferences and dietary needs. Whether it's a small get-together or a big celebration, I am committed to providing a dining experience that will leave a positive, lasting impression. With a wide range of culinary skills, I aim to create meals that not only satisfy hunger but also become a topic of conversation, making your event a memorable one.</p>
+</div>
 
-    <br></br>
-
-    <div className="p-1">
-    At Branch Line&#44; I discovered an appreciation for the incredible quality of food. The focus on rotisserie cooking and farm-to-table practices inspired me to elevate my craft even further. The experience of crafting delicious meals using the freshest&#44; locally sourced ingredients was truly invigorating.
-    </div>
-
-    <br></br>
-    
-    <div className="p-1">
-    Notably&#44; I had the privilege of working at Walt Disney World&#44; where I learned large-scale culinary operations while maintaining an unwavering commitment to quality. Serving guests from around the world was a truly magical experience.
-    </div>
-    <br></br>
-
-    <div className="p-1">
-    Personal Chef:
-    Today&#44; I bring my extensive culinary background and artistic flair directly to your table as a personal chef. I specialize in creating customized menus that cater to your unique preferences and dietary requirements. Whether it&#39s an intimate gathering or a grand celebration&#44; I&#39m dedicated to crafting a dining experience that leaves a lasting impression.
-    </div>
-    
     </section>
   );
 };
