@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -10,7 +11,10 @@ const Hero = () => {
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
-            <img src="/images/logo/png/colorLogo-noBackground.png" ></img>  
+              <img src="/images/logo/png/colorLogo-noBackground.png"
+                alt="no logo"
+                width="1368px"
+                height="424px" />
             </div>
           </div>
         </div>
