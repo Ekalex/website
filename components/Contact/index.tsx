@@ -1,6 +1,5 @@
 import NewsLatterBox from "./NewsLatterBox";
 import Image from "next/image";
-import flipLogo from '../../public/images/homepage/background-food-bowl.svg';
 
 const Contact = () => {
   return (
@@ -16,18 +15,7 @@ const Contact = () => {
               data-te-ripple-init data-te-ripple-color="light" href="mailto:eric@onthymepersonalchef.com" role="button">Schedule a consultation</a>
             <a className="inline-block rounded  m-4 px-12 pt-4 pb-3.5 text-sm font-medium uppercase leading-normal text-gray-600 bg-primary hover:bg-indigo-400 hover:text-white"
               data-te-ripple-init data-te-ripple-color="light" href="https://squareup.com/gift/MLSQND4VMTYVV/order" role="button">Give the perfect gift</a>
-          </div>
-
-          <div className="flex">
-
-            <Image
-              src={flipLogo}
-              alt="Food bowl picture"
-              className="bg-white rounded-lg"
-              width={502}
-              height={971} />
-
-          </div>
+          </div>          
         </div>
       </div>
     </section>
