@@ -6,7 +6,7 @@ import ScrollUp from "@/components/Common/ScrollUp";
 import Contact from "@/components/Contact";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
-import Pricing from "@/components/Pricing";
+import Gallery from "@/components/Gallery";
 import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
 import { Inter } from "@next/font/google";
@@ -20,6 +20,7 @@ export default function Home() {
       <Hero />
       <Features />      
       <Testimonials />
+      <Gallery />
       <Contact />          
       
     </>
