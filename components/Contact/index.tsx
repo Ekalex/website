@@ -1,4 +1,3 @@
-import NewsLatterBox from "./NewsLatterBox";
 import Image from "next/image";
 
 const Contact = () => {
