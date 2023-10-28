@@ -37,11 +37,11 @@ const AboutSectionOne = () => {
     <h2>Work History</h2>
     <p>My journey in the culinary world began in Newport, Rhode Island, a town known for its coastal beauty and lively food scene. I embraced the local ingredients and started crafting dishes that became popular among the locals and got some attention in the culinary circle.</p> <br></br>
     <p>Feeling the urge to explore further, I moved back to my hometown of Boston, where I got the opportunity to work at Catalyst. There, I worked with a dedicated team, and the emphasis on using seasonal and high-quality ingredients allowed me to sharpen my skills and provide memorable dining experiences to our patrons.</p><br></br>
-    <p>Later, at Branch Line, I found a new appreciation for the quality of food we could create. The restaurant's focus on rotisserie cooking and farm-to-table practices pushed me to take my skills up a notch. It was a great experience, working with fresh, locally sourced ingredients and creating dishes that were genuinely appreciated.</p><br></br>
+    <p>Later, at Branch Line, I found a new appreciation for the quality of food we could create. The restaurant&#39s focus on rotisserie cooking and farm-to-table practices pushed me to take my skills up a notch. It was a great experience, working with fresh, locally sourced ingredients and creating dishes that were genuinely appreciated.</p><br></br>
     <p>A significant part of my culinary journey was the time I spent at Walt Disney World. Here, I learned about managing large-scale culinary operations while keeping a strong focus on quality. Serving guests from all over the world was an eye-opening experience.</p><br></br>
 
     <h2>Personal Chef</h2>
-    <p>Now, as a personal chef, I bring all that experience to your table. I specialize in creating custom menus that match your unique taste preferences and dietary needs. Whether it's a small get-together or a big celebration, I am committed to providing a dining experience that will leave a positive, lasting impression. With a wide range of culinary skills, I aim to create meals that not only satisfy hunger but also become a topic of conversation, making your event a memorable one.</p><br></br>
+    <p>Now, as a personal chef, I bring all that experience to your table. I specialize in creating custom menus that match your unique taste preferences and dietary needs. Whether it&#39s a small get-together or a big celebration, I am committed to providing a dining experience that will leave a positive, lasting impression. With a wide range of culinary skills, I aim to create meals that not only satisfy hunger but also become a topic of conversation, making your event a memorable one.</p><br></br>
 </div>
 
     </section>

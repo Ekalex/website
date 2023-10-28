@@ -1,0 +1,71 @@
+[debug] [2023-10-28T01:55:32.640Z] ----------------------------------------------------------------------
+[debug] [2023-10-28T01:55:32.647Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ekale\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-10-28T01:55:32.648Z] CLI Version:   12.7.0
+[debug] [2023-10-28T01:55:32.649Z] Platform:      win32
+[debug] [2023-10-28T01:55:32.650Z] Node Version:  v20.2.0
+[debug] [2023-10-28T01:55:32.651Z] Time:          Fri Oct 27 2023 21:55:32 GMT-0400 (Eastern Daylight Time)
+[debug] [2023-10-28T01:55:32.651Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-28T01:55:32.823Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-28T01:55:32.825Z] > authorizing via signed-in user (eric@onthymepersonalchef.com)
+[debug] [2023-10-28T01:55:32.827Z] [iam] checking project website-211bf for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-10-28T01:55:32.833Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/website-211bf:testIamPermissions [none]
+[debug] [2023-10-28T01:55:32.835Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/website-211bf:testIamPermissions x-goog-quota-user=projects/website-211bf
+[debug] [2023-10-28T01:55:32.836Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/website-211bf:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-10-28T01:55:33.369Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/website-211bf:testIamPermissions 200
+[debug] [2023-10-28T01:55:33.371Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/website-211bf:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-10-28T01:55:33.374Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/website-211bf [none]
+[debug] [2023-10-28T01:55:33.954Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/website-211bf 200
+[debug] [2023-10-28T01:55:33.957Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/website-211bf {"projectId":"website-211bf","projectNumber":"396179417522","displayName":"Website","name":"projects/website-211bf","resources":{"hostingSite":"website-211bf","storageBucket":"website-211bf.appspot.com","locationId":"us-east1"},"state":"ACTIVE","etag":"1_f847dc06-8385-4b33-9a9e-e166f910e3f6"}
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[info] warn  - You have enabled experimental feature (appDir) in next.config.js.
+
+[info] info  - Thank you for testing `appDir` please leave your feedback at https://nextjs.link/app-feedback
+
+[info] warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+
+[info] info  - Creating an optimized production build...
+
+[info] info  - Compiled successfully
+
+[info] info  - Linting and checking validity of types...
+
+[info] info  - VS Code settings.json has been updated for Next.js' automatic app types, this file can be added to .gitignore if desired
+
+[info] DeprecationWarning: 'originalKeywordKind' has been deprecated since v5.0.0 and will no longer be usable after v5.2.0. Use 'identifierToKeywordKind(identifier)' instead.
+
+[info] Pages directory cannot be found at C:\Users\ekale\onThyme\Code\onThymev1.0\website\pages or C:\Users\ekale\onThyme\Code\onThymev1.0\website\src\pages. If using a custom path, please configure with the `no-html-link-for-pages` rule in your eslint config file.
+
+[info] 
+Failed to compile.
+
+[info] 
+./components/About/AboutSectionOne.tsx
+40:113  Error: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.  react/no-unescaped-entities
+44:184  Error: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.  react/no-unescaped-entities
+
+./components/Footer/index.tsx
+15:19  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Use `<Image />` from `next/image` instead to utilize Image Optimization. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+85:17  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Use `<Image />` from `next/image` instead to utilize Image Optimization. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+./components/Hero/index.tsx
+14:15  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Use `<Image />` from `next/image` instead to utilize Image Optimization. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+./components/Video/index.tsx
+61:9  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Use `<Image />` from `next/image` instead to utilize Image Optimization. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/basic-features/eslint#disabling-rules
+
+[debug] [2023-10-28T01:56:28.025Z] Error: ENOENT: no such file or directory, open 'C:\Users\ekale\onThyme\Code\onThymev1.0\website\.next\export-marker.json'
+[error] 
+[error] Error: An unexpected error has occurred.
