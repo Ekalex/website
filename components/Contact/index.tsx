@@ -7,8 +7,9 @@ const Contact = () => {
   function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
   }
+}
   
-  export default function Example() {
+  function Example() {
     const [agreed, setAgreed] = useState(false)
   
     return (
@@ -174,6 +175,7 @@ const Contact = () => {
           </div>
         </form>
       </div>
+    )
 };
 
 export default Contact;
