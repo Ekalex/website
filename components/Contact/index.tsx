@@ -4,7 +4,7 @@ import Image from "next/image";
 const Contact = () => {
   return (
     <section className="flex justify-center items-center p-10">
-      <div className="isolate bg-Gray px-6 py-24 sm:py-32 lg:px-8 rounded-lg">
+      <div className="isolate bg-opacity-50 bg-Gray px-6 py-24 sm:py-32 lg:px-8 rounded-lg">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Setup a Consultation</h2>
           <p className="mt-2 text-lg leading-8 text-gray-600">Discuss menu options and other details</p>
@@ -54,8 +54,7 @@ const Contact = () => {
               </div>     
             </div>
             <div className="mt-10">
-              <button type="submit" className="block w-full rounded-md bg-primary px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-Charcoal focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">submit
-              </button>
+              <button type="submit" className="block w-full rounded-md bg-primary px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-Charcoal focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">submit</button>
             </div>
           </form>        
       </div>
