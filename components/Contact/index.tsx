@@ -6,7 +6,7 @@ const Contact = () => {
     <section className="mb-32 text-center lg:text-left">
       <div className="px-6 py-12 md:px-12">
         <div className="grid items-center lg:grid-cols-2 lg:gap-x-12 p-10px">
-        <div className="isolate bg-white px-6 py-24 sm:py-32 lg:px-8">
+        <div className="isolate bg-Gray px-6 py-24 sm:py-32 lg:px-8">
   <div className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]" aria-hidden="true">
     <div className="relative left-1/2 -z-10 aspect-[1155/678] w-[36.125rem] max-w-none -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-40rem)] sm:w-[72.1875rem]" ></div>
   </div>
