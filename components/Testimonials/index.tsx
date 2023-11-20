@@ -30,6 +30,46 @@ const testimonialData: Testimonial[] = [
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },
+
+  {
+    id: 3,
+    name: "Alok Solomani",
+    designation: "Previous Clients",
+    content:
+      "We hired Eric to cook for a 50th birthday party.  He is organized and easy to work with.  He crafted a great menu and cheerfully accommodated last minute requests.  The execution was spot on - he shopped, planned, cooked, plated and delivered to perfection. We highly recommend.'",
+    image: "/images/testimonials/auth-03.png",
+    star: 5,
+  },
+
+  {
+    id: 3,
+    name: "Alok Solomani",
+    designation: "Previous Clients",
+    content:
+      "We hired Eric to cook for a 50th birthday party.  He is organized and easy to work with.  He crafted a great menu and cheerfully accommodated last minute requests.  The execution was spot on - he shopped, planned, cooked, plated and delivered to perfection. We highly recommend.'",
+    image: "/images/testimonials/auth-03.png",
+    star: 5,
+  },
+
+  {
+    id: 3,
+    name: "Alok Solomani",
+    designation: "Previous Clients",
+    content:
+      "We hired Eric to cook for a 50th birthday party.  He is organized and easy to work with.  He crafted a great menu and cheerfully accommodated last minute requests.  The execution was spot on - he shopped, planned, cooked, plated and delivered to perfection. We highly recommend.'",
+    image: "/images/testimonials/auth-03.png",
+    star: 5,
+  },
+
+  {
+    id: 3,
+    name: "Alok Solomani",
+    designation: "Previous Clients",
+    content:
+      "We hired Eric to cook for a 50th birthday party.  He is organized and easy to work with.  He crafted a great menu and cheerfully accommodated last minute requests.  The execution was spot on - he shopped, planned, cooked, plated and delivered to perfection. We highly recommend.'",
+    image: "/images/testimonials/auth-03.png",
+    star: 5,
+  },
 ];
 
 const Testimonials = () => {
