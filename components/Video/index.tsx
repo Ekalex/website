@@ -34,15 +34,18 @@ const Video = () => {
   }, []);
 
   return (
-    <div className="container mx-auto p-4">
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-        {images.map((url, index) => (
-          <div key={index} className="grid gap-4">
-            <img className="h-auto max-w-full rounded-lg" src={url} alt="" />
+  <div className="container p-4">
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+      {images.map((url, index) => (
+        <div key={index} className="grid gap-4">
+          <div className="flex-block hover:border-blue-500 transform transition duration-500 hover:scale-105 hover:shadow-lg">
+            <img className="block h-auto max-w-full rounded-lg border border-gray-300 bg-gray-100" src={url} alt="" />
           </div>
-        ))}
-      </div>
+        </div>
+      ))}
     </div>
+  </div>
+  
   );
 };
 
