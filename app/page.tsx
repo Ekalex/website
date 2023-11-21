@@ -18,7 +18,8 @@ export default function Home() {
     <>
       <ScrollUp />
       <Hero />
-      <Features />      
+      <Features />
+      <Video />      
       <Testimonials />
       <Contact />          
       
