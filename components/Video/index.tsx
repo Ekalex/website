@@ -15,7 +15,7 @@ const Video = () => {
   const [images, setImages] = useState([]);
 
   useEffect(() => {
-    console.log("Component mounted")
+    console.log("Component mounted");
     const fetchImages = async () => {
       const storageRef = ref(storage, 'gs://website-211bf.appspot.com/gallery');
 
@@ -34,19 +34,19 @@ const Video = () => {
   }, []);
 
   return (
-  <div className="container p-4">
-    <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-      {images.map((url, index) => (
-        <div key={index} className="grid gap-4">
-          <div className="flex-block hover:border-blue-500 transform transition duration-500 hover:scale-105 hover:shadow-lg">
-            <img className="block h-auto max-w-full rounded-lg border border-gray-300 bg-gray-100" src={url} alt="" />
+    <div className="container p-4">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+        {images.map((url, index) => (
+          <div key={index} className="flex flex-col gap-4">
+            <div className="hover:border-primary transform transition duration-500 hover:scale-105 hover:shadow-lg">
+              <img className="block h-auto max-w-full rounded-lg border border-gray-300 bg-Gray" src={url} alt="" />
+            </div>           
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
-  </div>
-  
   );
 };
 
 export default Video;
+
