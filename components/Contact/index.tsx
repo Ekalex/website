@@ -4,7 +4,7 @@ import Script from 'next/script';
 const Contact = () => {
   return (
 <section>  
-  <div className='m-20 p-8 border border-primary rounded-lg shadow-lg'> 
+  <div className='m-20 p-8 border border-primary rounded-lg shadow-lg hover:shadow-2xl transform hover:scale-105 transition duration-500'> 
       <div data-tf-live="01HFTG5XED12THWW9771CNS8XH"></div>
       <Script src="//embed.typeform.com/next/embed.js" strategy="lazyOnload"/>
     </div>
