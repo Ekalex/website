@@ -1,23 +1,25 @@
-import NewsLatterBox from "./NewsLatterBox";
-import Image from "next/image";
+import React from 'react';
+import Script from 'next/script';
 
 const Contact = () => {
   return (
-    <section className="mb-32 text-center lg:text-left">
-      <div className="px-6 py-12 md:px-12">
-        <div className="grid items-center lg:grid-cols-2 lg:gap-x-12 p-10px">
-          <div className="mb-12 lg:mb-0">
-            <h2 className="my-12 text-5xl font-bold leading-tight tracking-tight">
-              Lets Chat!<br />              
-            </h2>
-            <a className="mb-2 inline-block rounded m-4 px-12 pt-4 pb-3.5 text-sm font-medium uppercase leading-normal text-Charcoal bg-primary hover:bg-Charcoal hover:text-primary"
-              data-te-ripple-init data-te-ripple-color="light" href="https://qa5h1fa5sob.typeform.com/to/lbG0R544" role="button" target="blank">Schedule a consultation</a>
-            <a className="inline-block rounded  m-4 px-12 pt-4 pb-3.5 text-sm font-medium uppercase leading-normal text-gray-600 bg-primary hover:bg-Charcoal hover:text-primary"
-              data-te-ripple-init data-te-ripple-color="light" href="https://squareup.com/gift/MLSQND4VMTYVV/order" role="button">Give the perfect gift</a>
-          </div>          
-        </div>
-      </div>
-    </section>
+<section>  
+  <div className='m-20 p-8 border border-primary rounded-lg shadow-lg'> 
+      <div data-tf-live="01HFTG5XED12THWW9771CNS8XH"></div>
+      <Script src="//embed.typeform.com/next/embed.js" strategy="lazyOnload"/>
+    </div>
+
+    <div className='m-20 p-8 border border-primary rounded-lg shadow-lg bg-Gray-100 hover:shadow-2xl transform hover:scale-105 hover:rotate-1 transition duration-500'>
+    <div className="container">
+      <h2 className="text-3xl font-bold mb-3">Looking for the Perfect Gift?</h2>
+      <p className="mb-4">Our gift cards let your loved ones choose exactly what they want. Ideal for any occasion!</p>
+      <a href="https://squareup.com/gift/MLSQND4VMTYVV/order" className="bg-primary text-white font-bold py-2 px-4 rounded transition duration-300 hover:bg-Gray hover:shadow-md transform hover:-translate-y-1">
+        Get A Gift Card Here!
+      </a>
+    </div>
+</div>
+
+</section>  
 
 
   );
