@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { getStorage, ref, getDownloadURL } from 'firebase/storage';
 
+
 const Footer = () => {
   const [logoUrl, setLogoUrl] = useState('');
   const [insuranceSealUrl, setInsuranceSealUrl] = useState('');
