@@ -1,20 +1,13 @@
-import firebase from 'firebase/app';
-import 'firebase/storage';
+import { initializeApp } from "firebase/app";
 
 const firebaseConfig = {
   apiKey: "YOUR_API_KEY",
   authDomain: "YOUR_AUTH_DOMAIN",
   projectId: "YOUR_PROJECT_ID",
-  storageBucket: "gs://website-211bf.appspot.com",
+  storageBucket: "website-211bf.appspot.com", // Make sure this line is included
   messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
   appId: "YOUR_APP_ID"
 };
 
 // Initialize Firebase
-if (!firebase.apps.length) {
-  firebase.initializeApp(firebaseConfig);
-} else {
-  firebase.app(); // if already initialized, use that one
-}
-
-export const storage = firebase.storage();
+const app = initializeApp(firebaseConfig);

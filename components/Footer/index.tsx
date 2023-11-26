@@ -15,12 +15,12 @@ const Footer = () => {
   useEffect(() => {
     const storage = getStorage();
     const fetchImages = async () => {
-      const logoRef = ref(storage, 'path/to/logo.png');
-      const insuranceRef = ref(storage, 'path/to/insurance_seal.png');
-      const facebookRef = ref(storage, 'path/to/facebook_icon.png');
-      const instagramRef = ref(storage, 'path/to/instagram_icon.png');
-      const linkedInRef = ref(storage, 'path/to/linkedin_icon.png');
-      const emailRef = ref(storage, 'path/to/email_icon.png');
+      const logoRef = ref(storage, 'gs://website-211bf.appspot.com/colorLogo-noBackground.png');
+      const insuranceRef = ref(storage, 'gs://website-211bf.appspot.com/icons/FLIP_insurance_seal.png');
+      const facebookRef = ref(storage, 'gs://website-211bf.appspot.com/icons/icons8-facebook.svg');
+      const instagramRef = ref(storage, 'gs://website-211bf.appspot.com/icons/icons8-instagram.svg');
+      const linkedInRef = ref(storage, 'gs://website-211bf.appspot.com/icons/icons8-linked-in.svg');
+      const emailRef = ref(storage, 'gs://website-211bf.appspot.com/icons/icons8-email.svg');
 
       const fetchUrl = async (imageRef) => await getDownloadURL(imageRef);
 
