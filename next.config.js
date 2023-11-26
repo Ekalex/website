@@ -4,7 +4,7 @@ const nextConfig = {
     appDir: true,
   },
   images: {
-    domains: ['firebasestorage.googleapis.com'],
+    domains: ['gs://website-211bf.appspot.com'],
     dangerouslyAllowSVG: true,
   },
 };
